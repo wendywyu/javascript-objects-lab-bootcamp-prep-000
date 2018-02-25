@@ -12,4 +12,5 @@ function updateObjectWithKeyAndValue(object, key, value) {
 
 function deleteFromObjectByKey(object, key) {
   delete recipes[key]
-} return recipes
+  return recipes
+}
